@@ -5,7 +5,7 @@
 
 '1.for loop examples'
 
-'''for i in range(21):
+for i in range(21):
     if i%2==0:
         print(i)
 
@@ -65,8 +65,8 @@ for i in range (2,21):
     num=num+2
 
 
-#for loop is used when the number of iterations is known, whereas execution
-is done in the while loop until the statement in the program is proved wrong
+'''for loop is used when the number of iterations is known, whereas execution
+is done in the while loop until the statement in the program is proved wrong'''
 
 #while loop
 
@@ -151,7 +151,8 @@ while i<=10:
 for i in range(10):
     if i==5:
         continue
-    print(i)'''
+    print(i)
+
 
 i=1
 while i<=10:
@@ -161,8 +162,10 @@ while i<=10:
         i+=1
         continue
 
-
-
+num=1
+while i<=5:
+    print(num)
+    i+=1
 
 
 
