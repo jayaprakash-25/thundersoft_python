@@ -5,7 +5,7 @@
 
 '1.for loop examples'
 
-for i in range(21):
+'''for i in range(21):
     if i%2==0:
         print(i)
 
@@ -62,7 +62,78 @@ for char in word:
 num=2
 for i in range (2,21):
     print(num)
-    num=num+2
+    num=num+2'''
+
+
+#nested for loop
+
+'A for loop inside a for loop'
+
+numlist=[1,2,3,4]
+charlist=['a','b']
+for n in numlist:
+    print(n)
+    for c in charlist:
+        print(c)
+
+
+
+for i in range(3):
+    for j in range(3):
+        print(i, j)
+
+
+
+
+for i in range(3):
+    for j in range(2):
+        for k in range(4):
+            print(i, j, k)
+
+
+
+for i in range(5):
+    for j in range(1, i+2):
+        print(j, end=" ")
+    print()
+
+
+
+for i in range(1, 6):
+    for j in range(i):
+        print("*", end=" ")
+    print()
+
+
+for i in range(5):
+    for j in range(i, 5):
+        print("*", end=" ")
+    print()
+
+
+
+for i in range(1, 6):
+    for j in range(1, i+1):
+        print(i * j, end=" ")
+    print()
+
+
+for i in range(1, 6):
+    for j in range(i, 6):
+        print(i * j, end=" ")
+    print()
+
+
+for i in range(1, 6):
+    for j in range(1, 6):
+        print(i + j, end=" ")
+    print()
+
+
+for i in range(1, 6):
+    for j in range(1, 6):
+        for k in range(1, 4):
+            print(i, j, k)
 
 
 '''for loop is used when the number of iterations is known, whereas execution
