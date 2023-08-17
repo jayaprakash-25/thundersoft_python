@@ -1,4 +1,4 @@
-import math
+'''import math
 sqrt_result = math.sqrt(25)
 print("Square root:", sqrt_result)
 
@@ -63,19 +63,56 @@ random_boolean = random.choice([True, False])
 print("Random boolean:", random_boolean)
 
 
-
-
-
-
-
-
-
-
 import random
 
 numbers = [1, 2, 3, 4, 5]
 random_permutation = random.sample(numbers, len(numbers))
-print("Random permutation:", random_permutation)
+print("Random permutation:", random_permutation)'''
+
+
+def add(num1,num2):
+    print(num1+num2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
