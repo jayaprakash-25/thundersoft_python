@@ -1,4 +1,4 @@
-#class and object creation
+#class and object creation in python
 
 class Person:
   def __init__(self, name, age):
